@@ -23,3 +23,21 @@ Versões mais antigas do Docker eram chamadas docker ou docker-engine. Se estes 
  O conteúdo de /var/lib/docker/ incluindo imagens, contêineres, volumes e redes, é preservado. O pacote do Docker CE agora é chamado de docker-ce.
  
 Kleber Jose Vilarim
+
+Instalar o Docker no CentOS Server
+
+-Etapa 2
+
+Execute o comando para ativar e iniciar o Docker na inicialização do sistema: 
+        $ sudo systemctl enable docker 
+        $ sudo systemctl start docker
+        
+Adicione o usuário suporte ao grupo do Docker: 
+        $ sudo gpasswd -a suporte docke
+
+Verifique qual é a versão instalada do Docker: 
+        $ sudo docker version
+        
+        
+
+
