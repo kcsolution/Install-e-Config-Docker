@@ -11,16 +11,16 @@ Instalar o Docker no CentOS Server
         $ sudo yum install docker-ce docker-ce-cli containerd.io -y3
 
 Desinstalar versões antigas
-Versões mais antigas do Docker eram chamadas docker ou docker-engine. Se estes estiverem instalados, desinstale-os juntamente com as dependências associadas.
-        $ sudo yum remove docker \
-        docker-client \
-        docker-client-latest \
-        docker-common \
-        docker-latest \
-        docker-latest-logrotate \
-        docker-logrotate \
-        motor de encaixe 
- O conteúdo de /var/lib/docker/ incluindo imagens, contêineres, volumes e redes, é preservado. O pacote do Docker CE agora é chamado de docker-ce.
+        Versões mais antigas do Docker eram chamadas docker ou docker-engine. Se estes estiverem instalados, desinstale-os juntamente           com as dependências associadas.
+                $ sudo yum remove docker \
+                        docker-client \
+                        docker-client-latest \
+                        docker-common \
+                        docker-latest \
+                        docker-latest-logrotate \
+                        docker-logrotate \
+                        motor de encaixe 
+        O conteúdo de /var/lib/docker/ incluindo imagens, contêineres, volumes e redes, é preservado. O pacote do Docker CE agora é chamado de docker-ce.
  
 Kleber Jose Vilarim
 
@@ -37,7 +37,8 @@ Instalar o Docker no CentOS Server
 
         Verifique qual é a versão instalada do Docker: 
                 $ sudo docker version
-        
-        
+ -------------------------------------------------------//--------------------------------------------------------------------------       
+Instalar o Docker no Ubuntu Server
+Etapa 1
 
 
