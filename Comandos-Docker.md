@@ -28,4 +28,4 @@
 
    ### Para se conectar ao container em execução, execute o seguinte comando:
      
-     $ docker container attach servidor-debian3
+     $ docker container attach servidor-debian
