@@ -16,16 +16,16 @@
 
  ## Executando container - Etapa 1
  
- ###Baixe a imagem do servidor Debian e verifique se o mesmo aparece na lista de imagens: 
+ ### Baixe a imagem do servidor Debian e verifique se o mesmo aparece na lista de imagens: 
  
       $ docker image pull debian 
       $ docker image ls
 
-   ###Execute um container debian e verifique se o mesmo aparece na lista de containers em execução: 
+   ### Execute um container debian e verifique se o mesmo aparece na lista de containers em execução: 
      
      $ docker container run -dit --name servidor-debian --hostname servidor-debian debian 
      $ docker container ls
 
-   ###Para se conectar ao container em execução, execute o seguinte comando:
+   ### Para se conectar ao container em execução, execute o seguinte comando:
      
      $ docker container attach servidor-debian3
