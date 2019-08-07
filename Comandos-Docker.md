@@ -22,8 +22,10 @@
       $ docker image ls
 
    ###Execute um container debian e verifique se o mesmo aparece na lista de containers em execução: 
-      $ docker container run -dit --name servidor-debian --hostname \ servidor-debian debian 
-      $ docker container ls
+     
+     $ docker container run -dit --name servidor-debian --hostname servidor-debian debian 
+     $ docker container ls
 
    ###Para se conectar ao container em execução, execute o seguinte comando:
-      $ docker container attach servidor-debian3
+     
+     $ docker container attach servidor-debian3
